@@ -1,0 +1,17 @@
+{
+  "name": "envus",
+  "version": "1.0.0-a",
+  "description": "A small utility for validating and resolving environment variables with type safety and defaults.",
+  "main": "index.js",
+  "keywords": ["env", "environment", "config", "validation", "resolve"],
+  "author": "SUJWN",
+  "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/sujwn/envus.git"
+	},
+  "bugs": {
+		"url": "https://github.com/sujwn/envus/issues"
+	},
+	"homepage": "https://github.com/sujwn/envus#readme"
+}
