@@ -1,17 +1,39 @@
 {
-  "name": "envus",
-  "version": "1.0.0-a",
-  "description": "A small utility for validating and resolving environment variables with type safety and defaults.",
-  "main": "index.js",
-  "keywords": ["env", "environment", "config", "validation", "resolve"],
-  "author": "SUJWN",
-  "license": "MIT",
-  "repository": {
+	"name": "envus",
+	"version": "2.0.0",
+	"description": "A zero-dependency schema system for clean, reliable env configs.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"clean": "rm -rf dist",
+		"test": "vitest"
+	},
+	"keywords": [
+		"env",
+		".env",
+		"dotenv",
+		"config",
+		"validation",
+		"typescript",
+		"schema",
+		"env loader",
+		"variables",
+		"environment"
+	],
+	"author": "SUJWN",
+	"license": "MIT",
+	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/sujwn/envus.git"
 	},
-  "bugs": {
+	"bugs": {
 		"url": "https://github.com/sujwn/envus/issues"
 	},
-	"homepage": "https://github.com/sujwn/envus#readme"
+	"homepage": "https://github.com/sujwn/envus#readme",
+	"devDependencies": {
+		"@types/node": "^25.0.0",
+		"typescript": "^5.0.0",
+		"vitest": "^1.0.0"
+	}
 }
